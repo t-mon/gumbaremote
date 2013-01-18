@@ -11,11 +11,8 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = gumbaremote
 TEMPLATE = app
 
-include(/home/timon/development/qextserialport/src/qextserialport.pri)
-include(wiimote.pri)
-
-#LIBS += -L/home/timon/development/qextserialport/lib -lqextserialport
-#INCLUDEPATH += /home/timon/development/qextserialport/src/*
+include(qextserialport/src/qextserialport.pri)
+include(wiimote/wiimote.pri)
 
 LIBS += -lqjson
 
