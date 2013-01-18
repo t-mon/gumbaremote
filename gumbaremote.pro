@@ -12,7 +12,7 @@ TARGET = gumbaremote
 TEMPLATE = app
 
 include(qextserialport/src/qextserialport.pri)
-include(wiimote/wiimote.pri)
+#include(wiimote/wiimote.pri)
 
 LIBS += -lqjson
 
